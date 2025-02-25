@@ -26,7 +26,8 @@ Usage
 ---
 
 ```
-usage: fridump [-h] [-o dir] [-u] [-H HOST] [-d device_name] [-v] [-r] [-s] [--max-size bytes] [--launch] [--launch-delay LAUNCH_DELAY] [--retry RETRY] process
+usage: fridump [-h] [-o dir] [-u] [-H HOST] [-d device_name] [-v] [-r] [-s] [--max-size bytes]
+               [--launch] [--launch-delay LAUNCH_DELAY] [--retry RETRY] process
 
 positional arguments:
   process               the process that you will be injecting to
